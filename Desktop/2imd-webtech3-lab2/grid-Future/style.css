@@ -2,14 +2,36 @@
     display: grid;
     grid-gap: 0.5em;
   }
+
+.grid .broken {
+    background-color: blue;
+}
+
+.grid .infinity {
+    background-color: yellow;
+}
   
   .grid > div {
     background-color: red;
     text-align: center;
-    padding: 3em;
+    padding: 1.5em;
     border-radius: 5px;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 1.5em;
     font-family: sans-serif;
   }
+
+  @media (min-width: 45em){
+      .grid{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+  }
+
+  @media (min-width: 65em){
+    .grid{
+        background-color: gray;
+    }
+}
+
