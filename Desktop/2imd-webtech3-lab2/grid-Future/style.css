@@ -1,0 +1,15 @@
+.grid {
+    display: grid;
+    grid-gap: 0.5em;
+  }
+  
+  .grid > div {
+    background-color: red;
+    text-align: center;
+    padding: 3em;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: sans-serif;
+  }
