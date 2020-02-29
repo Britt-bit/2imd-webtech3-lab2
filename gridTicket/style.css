@@ -1,0 +1,77 @@
+*{
+    font-family: sans-serif;
+}
+.grid{
+    background-image: url("https://media.discordapp.net/attachments/510079821343358991/682259500404703242/festival.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 700px;
+}
+
+/*header*/
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+h4{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 0.28em;
+    color: #FFFFFF;
+}
+header {
+    width: 400px;
+    height: 94px;
+    background: #000000;
+}
+
+/*qr code*/
+
+.code {
+    justify-content: center;
+    margin: 70px 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 100px;
+    top: 179px;
+}
+
+/*footer*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 485px;
+}
+
+.info div {
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+}
+
+.price {
+    border-top: hidden;
+    text-align: center;
+    align-items: baseline;
+    padding: 0.5em;;
+}
+
+.joke {
+    display: none;
+}
